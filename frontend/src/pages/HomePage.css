@@ -1,0 +1,46 @@
+/* HomePage.css */
+.home-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #c6f0ff, #f8dfff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+
+.home-title {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.home-subtitle {
+  font-size: 1.25rem;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.home-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.home-buttons button {
+  background-color: #6c63ff;
+  color: #fff;
+  font-size: 1rem;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(108, 99, 255, 0.2);
+}
+
+.home-buttons button:hover {
+  background-color: #5a54e3;
+  transform: scale(1.05);
+}
